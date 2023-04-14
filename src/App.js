@@ -12,7 +12,6 @@ const App = () => {
   return (
     <div className="App">
       <div className='audio-container'>
-        {/* <AudioControl source={seagullTest} name='Seagull Test'></AudioControl> */}
         <AudioControl source={gentleWaves} name='Gentle Waves'>
         </AudioControl>
 
