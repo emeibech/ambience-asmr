@@ -1,0 +1,6 @@
+.audio-btn {
+  background-color: rgba(0, 0, 0, 0.25);
+  border: none;
+  padding: 1rem;
+  flex: 1;
+}
