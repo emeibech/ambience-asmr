@@ -23,7 +23,7 @@ const AudioBtn = ({ name }) => {
         className="audio-btn" 
         onClick={togglePlayBack} 
       >
-        {playing ? "Pause" : "Play"} {name}
+        {name}
       </button>
     </>
   );
