@@ -1,6 +1,7 @@
 .audio-btn {
-  background-color: rgba(0, 0, 0, 0.1);
-  border: 2px solid black;
+  background-color: rgba(200, 200, 200, 0.25);
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  color: rgba(45, 45, 45);
   border-radius: 2rem;
   padding: 1rem;
   cursor: pointer;
@@ -9,8 +10,16 @@
 
 .audio-btn:hover {
   background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(45, 45, 45);
 }
 
 .audio-btn:active {
   background-color: rgba(255, 255, 255, 0.1);
+  color: gray;
+}
+
+.playing {
+  background-color: rgba(0, 0, 0, 0.45);
+  border: 3px solid black;
+  color: white;
 }
