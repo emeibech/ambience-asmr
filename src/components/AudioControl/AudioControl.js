@@ -1,3 +1,4 @@
+import './AudioControl.css'
 import AudioBtn from "./AudioBtn";
 import VolumeSlider from "./VolumeSlider";
 
