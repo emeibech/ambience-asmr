@@ -20,7 +20,7 @@ const AudioBtn = ({ name }) => {
   return (
     <>
       <button 
-        className="audio-btn" 
+        className={playing ? "audio-btn playing" : "audio-btn"} 
         onClick={togglePlayBack} 
       >
         {name}
