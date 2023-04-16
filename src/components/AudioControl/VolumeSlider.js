@@ -1,3 +1,4 @@
+import './VolumeSlider.css'
 import React, { useState } from "react";
 
 const VolumeSlider = ({ name }) => {
