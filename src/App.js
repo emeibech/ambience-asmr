@@ -18,7 +18,7 @@ const App = () => {
         <AudioControl source={strongWaves} name='Strong Waves'>
         </AudioControl>
 
-        <AudioControl source={splash} name='Splashing Water'>
+        <AudioControl source={splash} name='Splashes'>
         </AudioControl>
 
         <AudioControl source={wind} name='Wind'>
@@ -27,7 +27,7 @@ const App = () => {
         <AudioControl source={campfire} name='Campfire'>
         </AudioControl>
 
-        <AudioControl source={wading} name='Wading in the Water'>
+        <AudioControl source={wading} name='Wading'>
         </AudioControl>
       </div>
     </div>
