@@ -11,7 +11,6 @@ const VolumeSlider = ({ name }) => {
 
   return (
     <div>
-      <label htmlFor="volume-slider">Volume</label>
       <input
         id="volume-slider"
         type="range"
