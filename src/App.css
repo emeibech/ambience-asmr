@@ -20,3 +20,9 @@ body {
   row-gap: clamp(0.25rem, 0.25rem + 0.75vh, 1.5rem);
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
+
+@media only screen and (min-width: 480px) {
+  .audio-container {
+    margin-top: 70vh;
+  }
+}
