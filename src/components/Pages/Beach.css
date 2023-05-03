@@ -1,0 +1,28 @@
+body {
+  background-image: url(../../assets/images/backgrounds/beach-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.beach {
+  /* border: 1px solid black; */
+  display: grid;
+  place-items: center;
+}
+
+.audio-container {
+    /* border: 1px solid brown; */
+  width: min(900px, 95%);
+  margin-top: clamp(50vh, 50vh + 4vw, 70vh);
+  display: grid;
+  row-gap: clamp(0.25rem, 0.25rem + 0.75vh, 1.5rem);
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+@media only screen and (min-width: 480px) {
+  .audio-container {
+    margin-top: 70vh;
+  }
+}
