@@ -12,27 +12,12 @@ import bambooWhite from '../../assets/images/svgs/bamboo-white.svg';
 const TabsPanel = () => {
 
   return (
-    <div className='tabs-panel'>
-      <Tabs
-        name="Beach"
-        source={[wavesBlack, wavesWhite]}
-      ></Tabs>
-
-      <Tabs
-        name="Forest"
-        source={[forestBlack, forestWhite]}
-      ></Tabs>
-
-      <Tabs
-        name="Cafe"
-        source={[coffeeBlack, coffeeWhite]}
-      ></Tabs>
-
-      <Tabs
-        name="Japanese Garden"
-        source={[bambooBlack, bambooWhite]}
-      ></Tabs>
-    </div>
+    <nav className='tabs-panel'>
+      <Tabs name="Beach" source={[wavesBlack, wavesWhite]} />
+      <Tabs name="Forest" source={[forestBlack, forestWhite]} />
+      <Tabs name="Cafe" source={[coffeeBlack, coffeeWhite]} />
+      <Tabs name="Japanese Garden" source={[bambooBlack, bambooWhite]} />
+    </nav>
   );
 };
 
