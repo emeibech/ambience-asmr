@@ -3,7 +3,7 @@
   border: 3px solid rgba(0, 0, 0, 0.5);
   color: rgba(45, 45, 45);
   border-radius: 2rem;
-  padding: 1rem;
+  padding: 0.5rem;
   cursor: pointer;
   font-weight: bold;
 }
@@ -21,4 +21,10 @@
   background-color: rgba(0, 0, 0, 0.45);
   border: 3px solid black;
   color: white;
+}
+
+@media only screen and (min-width: 480px) {
+  .audio-btn {
+    padding: 1rem;
+  }
 }
