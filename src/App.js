@@ -1,12 +1,14 @@
 import './App.css'
-import Beach from './components/Pages/Beach'
+import Navigation from './components/Navigation/Navigation';
 import TabsPanel from './components/Tabs/TabsPanel';
+import Beach from './components/Pages/Beach'
 
 const App = () => {
   return (
     <div className='app'>
-      <Beach></Beach>
-      <TabsPanel></TabsPanel>
+      <Navigation />
+      <Beach />
+      <TabsPanel />
     </div>
   );
 }
