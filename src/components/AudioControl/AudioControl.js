@@ -7,8 +7,8 @@ const AudioControl = ({ source, name }) => {
   return (
     <div className='audio-control'>
       <audio data-audio={name} src={source} loop></audio>
-      <AudioBtn name={name}></AudioBtn>
-      <VolumeSlider name={name}></VolumeSlider>
+      <AudioBtn name={name} />
+      <VolumeSlider name={name} />
     </div>
   )
 }

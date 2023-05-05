@@ -11,23 +11,12 @@ const Beach = () => {
   return (
     <div className="beach">
       <div className='audio-container'>
-        <AudioControl source={gentleWaves} name='Gentle Waves'>
-        </AudioControl>
-
-        <AudioControl source={strongWaves} name='Strong Waves'>
-        </AudioControl>
-
-        <AudioControl source={splash} name='Splashes'>
-        </AudioControl>
-
-        <AudioControl source={wind} name='Wind'>
-        </AudioControl>
-
-        <AudioControl source={campfire} name='Campfire'>
-        </AudioControl>
-
-        <AudioControl source={wading} name='Wading'>
-        </AudioControl>
+        <AudioControl source={gentleWaves} name='Gentle Waves' />
+        <AudioControl source={strongWaves} name='Strong Waves' />
+        <AudioControl source={splash} name='Splashes' />
+        <AudioControl source={wind} name='Wind' />
+        <AudioControl source={campfire} name='Campfire' />
+        <AudioControl source={wading} name='Wading' />
       </div>
     </div>
   );
