@@ -10,19 +10,25 @@ body {
   /* border: 1px solid black; */
   display: grid;
   place-items: center;
+  margin-top: clamp(50vh, 50vh + 12vw, 70vh);
 }
 
 .audio-container {
-    /* border: 1px solid brown; */
-  width: min(900px, 95%);
-  margin-top: clamp(50vh, 50vh + 4vw, 70vh);
+  /* border: 1px solid brown; */
+  /* width: min(900px, 95%); */
   display: grid;
   row-gap: clamp(0.25rem, 0.25rem + 0.75vh, 1.5rem);
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  column-gap: clamp(1rem, 1rem + 4vw, 6rem);
+  /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+  grid-template-columns: repeat(2, 1fr);
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 768px) {
+  .beach {
+    margin-top: 60vh;
+  }
+
   .audio-container {
-    margin-top: 70vh;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
