@@ -1,21 +1,46 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
+import { NavStatusContext } from "../../App";
+import beachIMG from '../../assets/images/backgrounds/beach.jpg';
+import forestIMG from '../../assets/images/backgrounds/forest.jpg';
+import gardenIMG from '../../assets/images/backgrounds/garden.jpg';
+import cafeIMG from '../../assets/images/backgrounds/cafe.jpg';
 
-const Tabs = ({name, source}) => {
+const Tabs = ({name, source, navStatus}) => {
+  const setActiveTab = useContext(NavStatusContext);
+  const bg = {
+    beach: beachIMG,
+    forest: forestIMG,
+    garden: gardenIMG,
+    cafe: cafeIMG,
+  }
 
-  const [isActive, setActive] = useState(false);
+  const changeBG = (key) => {
+    document.body.style.backgroundImage = `url(${bg[key]})`;
+  }
 
-  const toggleStatus = () => {
-    setActive((prevState) => !prevState);
-  };
+  const handleClick = () => {
+    const newObj = Object.fromEntries(
+      Object.entries(navStatus).map(([key, value]) => {
+        if (key === name) {
+          changeBG(key)
+          return [key, true];
+        }
+
+        return [key, false];
+      })
+    );
+    
+    setActiveTab(newObj);
+  }
 
   return (
     <>
-      <button onClick={toggleStatus}>
+      <button onClick={handleClick}>
         <img 
-          src={isActive ? source[0] : source[1]} 
+          src={navStatus[name] ? source[0] : source[1]} 
           alt={name}
-          height='30px'
-          width='30px'
+          height='24px'
+          width='24px'
         />
       </button>
     </>
