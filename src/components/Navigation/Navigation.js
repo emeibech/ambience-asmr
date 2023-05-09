@@ -1,37 +1,14 @@
 import './Navigation.css'
-import React, { useState } from 'react';
 import NavItem from './NavItem';
 
-const Navigation = () => {
-  const [activeTab, setActiveTab] = useState('beach');
-
-  const handleTabClick = (tab) => {
-    setActiveTab(tab);
-  };
-
+const Navigation = ({navStatus}) => {
   return (
     <nav className="navigation">
       <ul>
-        <NavItem
-          name="beach"
-          isActive={activeTab === 'beach'}
-          onClick={() => handleTabClick('beach')}
-        />
-        <NavItem
-          name="forest"
-          isActive={activeTab === 'forest'}
-          onClick={() => handleTabClick('forest')}
-        />
-        <NavItem
-          name="garden"
-          isActive={activeTab === 'garden'}
-          onClick={() => handleTabClick('garden')}
-        />
-        <NavItem
-          name="cafe"
-          isActive={activeTab === 'cafe'}
-          onClick={() => handleTabClick('cafe')}
-        />
+        <NavItem name="beach" navStatus={navStatus} />
+        <NavItem name="forest" navStatus={navStatus} />
+        <NavItem name="garden" navStatus={navStatus} />
+        <NavItem name="cafe" navStatus={navStatus} />
       </ul>
     </nav>
   );
