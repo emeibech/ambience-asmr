@@ -2,7 +2,7 @@
   /* border: 1px solid darkblue; */
   display: grid;
   place-content: center;
-  gap: clamp(0.25rem, 0.25rem + 0.5vw, 0.75rem);
+  /* gap: clamp(0.25rem, 0.25rem + 0.5vw, 0.75rem); */
 }
 
 /* .audio-control * {

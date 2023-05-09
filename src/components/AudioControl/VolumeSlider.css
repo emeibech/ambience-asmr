@@ -6,8 +6,8 @@ input[type="range"] {
   width: 8rem;
   height: 6px;
   border-radius: 1rem;
-  background: rgba(175, 175, 175, 0.75);
-  background-image: linear-gradient(black, black);
+  background: rgb(40, 40, 40);
+  background-image: linear-gradient(rgb(220,220,220), rgb(220,220,220));
   background-size: 50% 100%;
   background-repeat: no-repeat;
 }
@@ -24,7 +24,7 @@ input[type="range"]::-webkit-slider-thumb {
   height: 0.75rem;
   width: 0.75rem;
   border-radius: 50%;
-  background: black;
+  background: rgb(220,220,220);
   box-shadow: 0 0 2px 0 #555;
 }
 
@@ -34,7 +34,7 @@ input[type="range"]::-moz-range-thumb {
   height: 0.75rem;
   width: 0.75rem;
   border-radius: 50%;
-  background: black;
+  background: rgb(220,220,220);
   box-shadow: 0 0 2px 0 #555;
 }
 
