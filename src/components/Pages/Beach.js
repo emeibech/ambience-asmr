@@ -1,4 +1,4 @@
-import './Beach.css';
+
 import AudioControl from '../AudioControl/AudioControl';
 import campfire from '../../assets/sounds/crackling-campfire.ogg';
 import gentleWaves from '../../assets/sounds/gentle-waves.ogg';
@@ -9,7 +9,7 @@ import wading from '../../assets/sounds/wading-in-the-water.ogg';
 
 const Beach = () => {
   return (
-    <div className="beach">
+    <div className="page">
       <div className='audio-container'>
         <AudioControl source={gentleWaves} name='Gentle Waves' />
         <AudioControl source={strongWaves} name='Strong Waves' />
