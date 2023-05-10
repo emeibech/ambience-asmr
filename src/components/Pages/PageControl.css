@@ -7,14 +7,12 @@ body {
 }
 
 .page {
-  /* border: 1px solid black; */
   display: grid;
   place-items: center;
   margin-top: clamp(45vh, 45vh + 8vh, 60vh);
 }
 
 .audio-container {
-  border: 2px solid white;
   background-color: rgba(0, 0, 0, 0.6);
   width: 90%;
   padding-block: 2rem;
@@ -23,7 +21,6 @@ body {
   row-gap: clamp(0.25rem, 0.25rem + 0.75vh, 1.5rem);
   column-gap: clamp(1rem, 1rem + 4vw, 6rem);
   grid-template-columns: repeat(2, 1fr);
-  /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
 }
 
 @media only screen and (min-width: 768px) {
