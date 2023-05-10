@@ -6,7 +6,7 @@ input[type="range"] {
   width: 8rem;
   height: 6px;
   border-radius: 1rem;
-  background: rgb(40, 40, 40);
+  background: rgb(80, 80, 80);
   background-image: linear-gradient(rgb(220,220,220), rgb(220,220,220));
   background-size: 50% 100%;
   background-repeat: no-repeat;
