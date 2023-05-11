@@ -5,13 +5,16 @@
 }
 
 .navigation {
-  /* border: 2px solid white; */
   font-family: fredericka;
   font-size: 3rem;
   color: rgba(150, 150, 150, 0.9);
   margin-top: 3rem;
-  width: 800px;
+  width: 720px;
   margin-inline: auto;
+  background-image: linear-gradient(rgba(0,0,0,0.9), rgba(40, 40, 40, 0.8));
+  border-radius: 2rem;
+  padding-block: 0.25rem;
+  padding-inline-start: 0.75rem;
 }
 
 .navigation ul {
@@ -21,10 +24,8 @@
 }
 
 .navigation ul li {
-  /* border: 1px solid seagreen; */
   display: flex;
   justify-content: center;
-  align-items: flex-end;
   cursor: pointer;
 }
 
@@ -33,7 +34,7 @@
 }
 
 .cafe-nav {
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.25rem;
 }
 
 .active,
