@@ -1,11 +1,11 @@
 
 import AudioControl from '../AudioControl/AudioControl';
-import campfire from '../../assets/sounds/crackling-campfire.ogg';
-import gentleWaves from '../../assets/sounds/gentle-waves.ogg';
-import splash from '../../assets/sounds/splashing-water.ogg';
-import strongWaves from '../../assets/sounds/strong-waves.ogg';
-import wind from '../../assets/sounds/wind.ogg';
-import wading from '../../assets/sounds/wading-in-the-water.ogg';
+import campfire from '../../assets/sounds/crackling-campfire.mp3';
+import gentleWaves from '../../assets/sounds/gentle-waves.mp3';
+import splash from '../../assets/sounds/splashing-water.mp3';
+import strongWaves from '../../assets/sounds/strong-waves.mp3';
+import wind from '../../assets/sounds/wind.mp3';
+import wading from '../../assets/sounds/wading-in-the-water.mp3';
 
 const Beach = () => {
   return (

@@ -1,11 +1,11 @@
 
 import AudioControl from '../AudioControl/AudioControl';
-import shishiodoshi from '../../assets/sounds/shishiodoshi.ogg';
-import chimes from '../../assets/sounds/wooden-chimes.ogg';
-import birds from '../../assets/sounds/garden-birds.ogg';
-import fish from '../../assets/sounds/fish.ogg';
-import bees from '../../assets/sounds/bees.ogg'
-import dragonfly from '../../assets/sounds/dragonfly.ogg';
+import shishiodoshi from '../../assets/sounds/shishiodoshi.mp3';
+import chimes from '../../assets/sounds/wooden-chimes.mp3';
+import birds from '../../assets/sounds/garden-birds.mp3';
+import fish from '../../assets/sounds/fish.mp3';
+import bees from '../../assets/sounds/bees.mp3'
+import dragonfly from '../../assets/sounds/dragonfly.mp3';
 
 const Garden = () => {
   return (
