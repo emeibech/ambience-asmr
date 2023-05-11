@@ -1,9 +1,5 @@
 .navigation {
   display: none;
-  background-image: linear-gradient(rgba(0,0,0,0.9), rgba(40, 40, 40, 0.8));
-  border-radius: 1rem;
-  padding-inline: 2rem;
-  padding-block: 0.5rem;
 }
 
 @media only screen and (min-width: 900px) {

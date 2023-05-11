@@ -4,7 +4,7 @@ input[type="range"] {
   background: transparent;
   cursor: pointer;
   width: 8rem;
-  height: 6px;
+  height: 8px;
   border-radius: 1rem;
   background: rgb(80, 80, 80);
   background-image: linear-gradient(rgb(220,220,220), rgb(220,220,220));
