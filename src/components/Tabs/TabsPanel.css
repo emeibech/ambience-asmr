@@ -1,5 +1,4 @@
 .tabs-panel {
-  opacity: 0.75;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   position: absolute;
@@ -10,5 +9,5 @@
 
 .tabs-panel button {
   border: none;
-  background-color: gray;
+  background-color: rgba(100, 100, 100, 0.5);
 }
