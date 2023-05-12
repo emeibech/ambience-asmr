@@ -16,8 +16,8 @@ const Tabs = ({name, source, navStatus}) => {
         <img 
           src={navStatus[name] ? source[0] : source[1]} 
           alt={name}
-          height='24px'
-          width='24px'
+          height='28px'
+          width='28px'
         />
       </button>
     </>
