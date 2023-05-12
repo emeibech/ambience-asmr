@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { NavStatusContext } from '../../App';
-import handleNavClick from '../../Modules/handleNavClick';
+import handleNavClick from '../../modules/handleNavClick';
 
 const NavItem = ({ name, navStatus }) => {
   const setActiveTab = useContext(NavStatusContext);
