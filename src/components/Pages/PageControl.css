@@ -9,7 +9,7 @@ body {
 .page {
   display: grid;
   place-items: center;
-  margin-top: clamp(35vh, 35vh + 6vh, 60vh);
+  margin-top: clamp(35vh, 35vh + 5vh, 60vh);
 }
 
 .audio-container {
@@ -26,7 +26,7 @@ body {
 
 @media only screen and (min-width: 768px) {
   .page {
-    margin-top: 55vh;
+    margin-top: 50vh;
   }
 
   .audio-container {
